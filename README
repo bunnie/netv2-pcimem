@@ -1,4 +1,18 @@
+# netv2-pcimem
+
 This code is a fork from https://github.com/billfarrow/pcimem
+
+It has been adapted for use specifically with NeTV2.
+
+Some example symlinks are included so you have an idea of where
+to look for the PCI bars.
+
+Note that the exact structure of the PCI bars can vary depending
+upon the system but we constructed the FPGA so that each memory
+aperture has a different size, allowing for easy identification
+of which aperture belongs to which subsystem based upon its size.
+
+# Original README
 
 == Overview ==
 
